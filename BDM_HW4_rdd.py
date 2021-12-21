@@ -187,9 +187,6 @@ def main(sc):
         .saveAsTextFile(f'{OUTPUT_PREFIX}/{filename}')
 
 
-
-
-
 if __name__=='__main__':
     sc = SparkContext()
     main(sc)
